@@ -77,11 +77,18 @@ button:hover {
 .about {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
   align-items: center;
+  min-width: 100vw;
+  min-height: 90vh;
 }
 
-.anh1 {
+.anhQuynh {
+  min-height: inherit
+}
+
+.anhQuynh img {
   object-fit: cover;
   height: 550px;
   width: 400px;
@@ -89,6 +96,8 @@ button:hover {
 }
 
 .text {
+  height: 1em;
   color: #fff;
-  width: 30%;
+  width: 400px;
+  min-height: inherit;
 }
