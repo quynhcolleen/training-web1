@@ -108,7 +108,7 @@ button:hover {
 }
 
 .name {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .name:hover,
@@ -148,6 +148,7 @@ button:hover {
 
 .gallery1,
 .gallery2 {
+  margin-left: 45px;
   margin-top: 80px;
   display: flex;
   justify-content: center;
