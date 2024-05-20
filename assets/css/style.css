@@ -44,7 +44,7 @@ li>a {
   color: #fff;
 }
 
-button {
+.header button {
   cursor: pointer;
   padding: 12px 20px;
   border-radius: 10px;
@@ -55,7 +55,7 @@ button {
   transition: 0.2s ease 0s;
 }
 
-button:hover {
+.header button:hover {
   color: #101010;
   background-color: #fff;
 }
@@ -170,6 +170,7 @@ button:hover {
 .gallery img:hover {
   box-shadow: 5px 10px 8px #888888;
 }
+
 .gallery .muc {
   display: block;
   padding-top: 18px;
@@ -189,8 +190,7 @@ button:hover {
 
 .social {
   background-color: #000;
-  height: 600px;
-  display: flex;
+  height: 550px;
 }
 
 .social .text {
@@ -198,6 +198,10 @@ button:hover {
   margin-right: auto;
   padding-top: 80px;
   text-align: center;
+}
+
+.social .these {
+  font-weight: 800;
 }
 
 .social .title {
@@ -209,4 +213,83 @@ button:hover {
 
 .social .desc {
   font-size: 20px;
+}
+
+
+.social .logo-social {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social .logo-social a {
+  height: 100px;
+  width: 100px;
+  fill: #FFF;
+  transition: fill 0.2s ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social .ins:hover {
+  fill: #E1306C;
+  filter: drop-shadow(0 0 20px rgb(230, 1, 62));
+  transform: scale(1.2);
+}
+
+.social .fb:hover {
+  fill: #1877F2;
+  filter: drop-shadow(0 0 5px #0033fe);
+  transform: scale(1.2);
+}
+
+.social .sc:hover {
+  fill: #ff7700;
+  filter: drop-shadow(0 0 5px #df6800);
+  transform: scale(1.2);
+}
+
+.social .yt:hover {
+  fill: #FF0000;
+  filter: drop-shadow(0 0 5px #e50000);
+  transform: scale(1.2);
+}
+
+.social .spt:hover {
+  fill: #22ce5e;
+  filter: drop-shadow(0 0 5px #1DB954);
+  transform: scale(1.2);
+}
+
+.footer {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer p {
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.footer button {
+  padding: 0px 20px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 16px;
+}
+
+
+.footer button:hover {
+  background-color: #000;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
 }
