@@ -193,17 +193,20 @@ button:hover {
   display: flex;
 }
 
-.social .title {
-  font-weight: 800;
-  font-size: 40px;
-  margin-top: 80px;
-  color: #fff;
-  text-align: center;
+.social .text {
   margin-left: auto;
   margin-right: auto;
-  text-transform: uppercase;
-  width: 100%;
+  padding-top: 80px;
+  text-align: center;
 }
-.social .logo-container {
-  display: flex;
+
+.social .title {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.social .desc {
+  font-size: 20px;
 }
