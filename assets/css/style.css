@@ -56,7 +56,7 @@ p {
   transition: 0.3s ease 0s;
 }
 
-li>a {
+li > a {
   list-style-type: none;
   color: #fff;
 }
@@ -76,7 +76,6 @@ li>a {
   color: #101010;
   background-color: #fff;
 }
-
 
 .navlink li {
   display: inline-block;
@@ -118,7 +117,7 @@ li>a {
   margin-bottom: 90px;
 }
 
-.text .name>a {
+.text .name > a {
   font-weight: 800;
   font-size: 90px;
   cursor: pointer;
@@ -162,7 +161,6 @@ li>a {
   font-style: italic;
   font-weight: 400;
 }
-
 
 .gallery {
   margin-top: 120px;
@@ -232,7 +230,6 @@ li>a {
   font-size: 30px;
 }
 
-
 .social .logo-social {
   padding-top: 75px;
   display: flex;
@@ -244,19 +241,19 @@ li>a {
   height: 150px;
   width: 150px;
   transform: scale(1.5);
-  fill: #FFF;
+  fill: #fff;
   transition: fill 0.2s ease;
   transition: transform 0.2s ease-in-out;
 }
 
 .social .ins:hover {
-  fill: #E1306C;
+  fill: #e1306c;
   filter: drop-shadow(0 0 30px rgb(230, 1, 62));
   transform: scale(1.8);
 }
 
 .social .fb:hover {
-  fill: #1877F2;
+  fill: #1877f2;
   filter: drop-shadow(0 0 7.5px #0033fe);
   transform: scale(1.8);
 }
@@ -268,14 +265,14 @@ li>a {
 }
 
 .social .yt:hover {
-  fill: #FF0000;
+  fill: #ff0000;
   filter: drop-shadow(0 0 7.5px #e50000);
   transform: scale(1.8);
 }
 
 .social .spt:hover {
   fill: #22ce5e;
-  filter: drop-shadow(0 0 7.5px #1DB954);
+  filter: drop-shadow(0 0 7.5px #1db954);
   transform: scale(1.8);
 }
 
@@ -304,11 +301,9 @@ li>a {
   font-size: 24px;
 }
 
-
 .footer button:hover {
   background-color: #000;
   color: #fff;
   padding-left: 60px;
   padding-right: 60px;
 }
-
